@@ -19,3 +19,6 @@ async def user_page(user_id: int) -> dict:
 @app.get("/user")
 async def user_info(username: str, age: int) -> dict:
     return {"message": f"Информация о пользователе. Имя: {username}, Возраст: {age}"}
+
+
+
